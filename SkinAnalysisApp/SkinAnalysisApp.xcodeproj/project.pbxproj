@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36387AC2C2B1C83007A3D98 /* SkinAnalysisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387AB2C2B1C83007A3D98 /* SkinAnalysisApp.swift */; };
+		D36387AE2C2B1C83007A3D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387AD2C2B1C83007A3D98 /* ContentView.swift */; };
+		D36387B02C2B1C84007A3D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36387AF2C2B1C84007A3D98 /* Assets.xcassets */; };
+		D36387B32C2B1C84007A3D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36387B22C2B1C84007A3D98 /* Preview Assets.xcassets */; };
+		D36387BD2C2B1C84007A3D98 /* SkinAnalysisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387BC2C2B1C84007A3D98 /* SkinAnalysisAppTests.swift */; };
+		D36387C72C2B1C84007A3D98 /* SkinAnalysisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387C62C2B1C84007A3D98 /* SkinAnalysisAppUITests.swift */; };
+		D36387C92C2B1C84007A3D98 /* SkinAnalysisAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387C82C2B1C84007A3D98 /* SkinAnalysisAppUITestsLaunchTests.swift */; };
+		D36387D62C2B1CC3007A3D98 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387D52C2B1CC3007A3D98 /* ContentViewModel.swift */; };
+		D36387D82C2B1DC5007A3D98 /* ProductRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387D72C2B1DC5007A3D98 /* ProductRecommendation.swift */; };
+		D36387DA2C2B1DF8007A3D98 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36387D92C2B1DF8007A3D98 /* ImagePicker.swift */; };
+		D36387E72C2B232B007A3D98 /* server.py in Resources */ = {isa = PBXBuildFile; fileRef = D36387E62C2B232B007A3D98 /* server.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36387B92C2B1C84007A3D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36387A02C2B1C83007A3D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36387A72C2B1C83007A3D98;
+			remoteInfo = SkinAnalysisApp;
+		};
+		D36387C32C2B1C84007A3D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36387A02C2B1C83007A3D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36387A72C2B1C83007A3D98;
+			remoteInfo = SkinAnalysisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36387A82C2B1C83007A3D98 /* SkinAnalysisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinAnalysisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36387AB2C2B1C83007A3D98 /* SkinAnalysisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAnalysisApp.swift; sourceTree = "<group>"; };
+		D36387AD2C2B1C83007A3D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D36387AF2C2B1C84007A3D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36387B22C2B1C84007A3D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D36387B82C2B1C84007A3D98 /* SkinAnalysisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinAnalysisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36387BC2C2B1C84007A3D98 /* SkinAnalysisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAnalysisAppTests.swift; sourceTree = "<group>"; };
+		D36387C22C2B1C84007A3D98 /* SkinAnalysisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinAnalysisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36387C62C2B1C84007A3D98 /* SkinAnalysisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAnalysisAppUITests.swift; sourceTree = "<group>"; };
+		D36387C82C2B1C84007A3D98 /* SkinAnalysisAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAnalysisAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D36387D52C2B1CC3007A3D98 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D36387D72C2B1DC5007A3D98 /* ProductRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendation.swift; sourceTree = "<group>"; };
+		D36387D92C2B1DF8007A3D98 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D36387E62C2B232B007A3D98 /* server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server.py; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36387A52C2B1C83007A3D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387B52C2B1C84007A3D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387BF2C2B1C84007A3D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D363879F2C2B1C83007A3D98 = {
+			isa = PBXGroup;
+			children = (
+				D36387AA2C2B1C83007A3D98 /* SkinAnalysisApp */,
+				D36387BB2C2B1C84007A3D98 /* SkinAnalysisAppTests */,
+				D36387C52C2B1C84007A3D98 /* SkinAnalysisAppUITests */,
+				D36387A92C2B1C83007A3D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36387A92C2B1C83007A3D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36387A82C2B1C83007A3D98 /* SkinAnalysisApp.app */,
+				D36387B82C2B1C84007A3D98 /* SkinAnalysisAppTests.xctest */,
+				D36387C22C2B1C84007A3D98 /* SkinAnalysisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36387AA2C2B1C83007A3D98 /* SkinAnalysisApp */ = {
+			isa = PBXGroup;
+			children = (
+				D36387AB2C2B1C83007A3D98 /* SkinAnalysisApp.swift */,
+				D36387AD2C2B1C83007A3D98 /* ContentView.swift */,
+				D36387AF2C2B1C84007A3D98 /* Assets.xcassets */,
+				D36387D92C2B1DF8007A3D98 /* ImagePicker.swift */,
+				D36387E62C2B232B007A3D98 /* server.py */,
+				D36387D52C2B1CC3007A3D98 /* ContentViewModel.swift */,
+				D36387D72C2B1DC5007A3D98 /* ProductRecommendation.swift */,
+				D36387B12C2B1C84007A3D98 /* Preview Content */,
+			);
+			path = SkinAnalysisApp;
+			sourceTree = "<group>";
+		};
+		D36387B12C2B1C84007A3D98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D36387B22C2B1C84007A3D98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D36387BB2C2B1C84007A3D98 /* SkinAnalysisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36387BC2C2B1C84007A3D98 /* SkinAnalysisAppTests.swift */,
+			);
+			path = SkinAnalysisAppTests;
+			sourceTree = "<group>";
+		};
+		D36387C52C2B1C84007A3D98 /* SkinAnalysisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36387C62C2B1C84007A3D98 /* SkinAnalysisAppUITests.swift */,
+				D36387C82C2B1C84007A3D98 /* SkinAnalysisAppUITestsLaunchTests.swift */,
+			);
+			path = SkinAnalysisAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36387A72C2B1C83007A3D98 /* SkinAnalysisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36387CC2C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisApp" */;
+			buildPhases = (
+				D36387A42C2B1C83007A3D98 /* Sources */,
+				D36387A52C2B1C83007A3D98 /* Frameworks */,
+				D36387A62C2B1C83007A3D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkinAnalysisApp;
+			productName = SkinAnalysisApp;
+			productReference = D36387A82C2B1C83007A3D98 /* SkinAnalysisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36387B72C2B1C84007A3D98 /* SkinAnalysisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36387CF2C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisAppTests" */;
+			buildPhases = (
+				D36387B42C2B1C84007A3D98 /* Sources */,
+				D36387B52C2B1C84007A3D98 /* Frameworks */,
+				D36387B62C2B1C84007A3D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36387BA2C2B1C84007A3D98 /* PBXTargetDependency */,
+			);
+			name = SkinAnalysisAppTests;
+			productName = SkinAnalysisAppTests;
+			productReference = D36387B82C2B1C84007A3D98 /* SkinAnalysisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36387C12C2B1C84007A3D98 /* SkinAnalysisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36387D22C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisAppUITests" */;
+			buildPhases = (
+				D36387BE2C2B1C84007A3D98 /* Sources */,
+				D36387BF2C2B1C84007A3D98 /* Frameworks */,
+				D36387C02C2B1C84007A3D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36387C42C2B1C84007A3D98 /* PBXTargetDependency */,
+			);
+			name = SkinAnalysisAppUITests;
+			productName = SkinAnalysisAppUITests;
+			productReference = D36387C22C2B1C84007A3D98 /* SkinAnalysisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36387A02C2B1C83007A3D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D36387A72C2B1C83007A3D98 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D36387B72C2B1C84007A3D98 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D36387A72C2B1C83007A3D98;
+					};
+					D36387C12C2B1C84007A3D98 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D36387A72C2B1C83007A3D98;
+					};
+				};
+			};
+			buildConfigurationList = D36387A32C2B1C83007A3D98 /* Build configuration list for PBXProject "SkinAnalysisApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D363879F2C2B1C83007A3D98;
+			productRefGroup = D36387A92C2B1C83007A3D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36387A72C2B1C83007A3D98 /* SkinAnalysisApp */,
+				D36387B72C2B1C84007A3D98 /* SkinAnalysisAppTests */,
+				D36387C12C2B1C84007A3D98 /* SkinAnalysisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36387A62C2B1C83007A3D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36387B32C2B1C84007A3D98 /* Preview Assets.xcassets in Resources */,
+				D36387E72C2B232B007A3D98 /* server.py in Resources */,
+				D36387B02C2B1C84007A3D98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387B62C2B1C84007A3D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387C02C2B1C84007A3D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36387A42C2B1C83007A3D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36387D82C2B1DC5007A3D98 /* ProductRecommendation.swift in Sources */,
+				D36387AE2C2B1C83007A3D98 /* ContentView.swift in Sources */,
+				D36387DA2C2B1DF8007A3D98 /* ImagePicker.swift in Sources */,
+				D36387AC2C2B1C83007A3D98 /* SkinAnalysisApp.swift in Sources */,
+				D36387D62C2B1CC3007A3D98 /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387B42C2B1C84007A3D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36387BD2C2B1C84007A3D98 /* SkinAnalysisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36387BE2C2B1C84007A3D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36387C72C2B1C84007A3D98 /* SkinAnalysisAppUITests.swift in Sources */,
+				D36387C92C2B1C84007A3D98 /* SkinAnalysisAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36387BA2C2B1C84007A3D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36387A72C2B1C83007A3D98 /* SkinAnalysisApp */;
+			targetProxy = D36387B92C2B1C84007A3D98 /* PBXContainerItemProxy */;
+		};
+		D36387C42C2B1C84007A3D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36387A72C2B1C83007A3D98 /* SkinAnalysisApp */;
+			targetProxy = D36387C32C2B1C84007A3D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D36387CA2C2B1C84007A3D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36387CB2C2B1C84007A3D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36387CD2C2B1C84007A3D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinAnalysisApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36387CE2C2B1C84007A3D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinAnalysisApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D36387D02C2B1C84007A3D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinAnalysisApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinAnalysisApp";
+			};
+			name = Debug;
+		};
+		D36387D12C2B1C84007A3D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinAnalysisApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkinAnalysisApp";
+			};
+			name = Release;
+		};
+		D36387D32C2B1C84007A3D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinAnalysisApp;
+			};
+			name = Debug;
+		};
+		D36387D42C2B1C84007A3D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.SkinAnalysisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkinAnalysisApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36387A32C2B1C83007A3D98 /* Build configuration list for PBXProject "SkinAnalysisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36387CA2C2B1C84007A3D98 /* Debug */,
+				D36387CB2C2B1C84007A3D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36387CC2C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36387CD2C2B1C84007A3D98 /* Debug */,
+				D36387CE2C2B1C84007A3D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36387CF2C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36387D02C2B1C84007A3D98 /* Debug */,
+				D36387D12C2B1C84007A3D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36387D22C2B1C84007A3D98 /* Build configuration list for PBXNativeTarget "SkinAnalysisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36387D32C2B1C84007A3D98 /* Debug */,
+				D36387D42C2B1C84007A3D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36387A02C2B1C83007A3D98 /* Project object */;
+}
